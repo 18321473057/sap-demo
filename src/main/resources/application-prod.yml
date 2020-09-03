@@ -1,0 +1,19 @@
+server:
+  port: 80 #服务端口
+spring:
+  application:
+    name: sap #指定服务名
+  devtools:
+    restart:
+      enabled=true: true #热部署
+
+sap:
+  client:
+    jcoAshost: 192.168.35.28
+    jcoSysnr: 00
+    jcoClient: 900
+    jcoUser: RFCUSER
+    jcoPasswd: hand1234
+    jcoLang: zh
+    poolCapacity: 5
+    peakLimit: 50
